@@ -1,0 +1,65 @@
+<!DOCTYPE html> <!--dtd path: document type definition-->
+<html>
+<head>
+    <title>validate form</title>
+    <meta charset= "UTF-8">
+    <meta name = "keyword" content = "put imp words">
+    <meta name = "author" content = "put name of author">
+    <meta name = "description" content = "put short description">
+    <meta name = "viewport" content = "width=device-width,initial-scale-1">
+    <link rel="stylesheet" href="#">
+    
+</head>
+<body>
+    <form action= "success.html" onSubmit="return validateForm()" novalidate> <!--novalidate: to stop browser's implicit validation-->
+        <table >
+            <tr><!--firstName-->
+                <td><label for = "fname">First Name:</label> </td>
+                <td><input type= "text" id = "fname" value="sai"  name="myname" onblur =validate1()></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id = "error1" ></td>
+            </tr>
+            <tr><!--userName-->
+                <td><label for = "uname">Set Username:</label> </td>
+                <td><input type= "text" id = "uname"  name="uname" onblur =validate2()>  </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id = "error2" ></td>
+            </tr>
+            <tr><!--email-->
+                <td><label for = "email">Email ID:</label> </td>
+                <td><input type= "email" id = "email"  name="email" onblur =validate3()>  </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id = "error3" ></td>
+            </tr>
+            <tr><!--mobile Number-->
+                <td><label for = "Mobile">Mobile Number:</label> </td>
+                <td><input type= "text" id = "mobile"  name="Mobile" onblur =validate4()>  </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id = "error4" class="error"></td>
+            </tr>
+            <tr><!--age-->
+                <td><label for = "age">Age:</label> </td>
+                <td><input type= "number" id = "age"  name="age"  onblur =validate5()>  </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id = "error5" ></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="REGISTER"></td>
+            </tr>
+    
+        </table>
+    </form>
+     <script src ="js/form.js"></script>
+</body>
+</html>
