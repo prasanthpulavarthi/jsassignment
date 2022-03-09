@@ -9,12 +9,14 @@ click here to open calculator assignment
 https://prasanthpulavarthi.github.io/jsassignment/calc.html
 
 
-click here to open promise1 assignment
+click here to open promise1 assignment(latestposts)
 
 https://prasanthpulavarthi.github.io/jsassignment/promise1
 
 
-click here to open promise2 assignment(latestposts)
+click here to open promise2 assignment(userdetails)
 
 
 https://prasanthpulavarthi.github.io/jsassignment/promise2
+
+
