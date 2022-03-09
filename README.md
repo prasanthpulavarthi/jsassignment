@@ -20,3 +20,19 @@ click here to open promise2 assignment(userdetails)
 https://prasanthpulavarthi.github.io/jsassignment/promise2
 
 
+click here to get imageslide assignment
+
+https://prasanthpulavarthi.github.io/jsassignment/imageslide
+
+
+click here to open email assignment
+
+https://prasanthpulavarthi.github.io/jsassignment/email.html
+
+
+click here to open form assignment
+
+https://prasanthpulavarthi.github.io/jsassignment/form.html
+
+
+
